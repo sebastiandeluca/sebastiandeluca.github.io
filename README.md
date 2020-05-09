@@ -13,7 +13,7 @@ _Now, this is where the money is._
 I have amassed quite a lot of projects over the last 3 years, although the first years' projects are lost. Here's some of my all-time favourite ones.
 
 # Prism
-The crowned-jewel of my coding career thus far. Prism is the amalgamation of everything I've learned thus far, and was a true passion project for my friends and I to create.
+The crowned-jewel of my coding career thus far. Prism is the amalgamation of everything I've learned, and was a true passion project for my friends and I to create.
 
 Prism features unqiue features like weather, save-games, a 2.5D Perspective view, an easy-to-use GUI, and more.
 

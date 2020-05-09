@@ -22,7 +22,7 @@ Prism features unqiue features like weather, save-games, a 2.5D Perspective view
 
 Lost in an arcade at night, 7 Year Old Dylan Park finds refuge in playing the few arcade machines left running overnight. To his surprise, these games seem to light up the arcade, and could maybe even light up his path of escape. In Prism, play as Dylan in his quest to get home and return to Mom before the night comes to an end.
 
-Prism is downloadable off of my [GitHub](https://github.com/sebastiandeluca/Prism).
+Prism is downloadable off of my [GitHub](https://github.com/sebastiandeluca/Prism), or off of the [Foo Games Website](https://www.sites.google.com/view/foogames)
 
 
 

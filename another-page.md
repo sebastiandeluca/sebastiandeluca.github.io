@@ -1,6 +1,3 @@
----
-layout: default
----
 
 ## My All-Time Favourites!
 
@@ -19,4 +16,3 @@ Prism is downloadable off of my GitHub, or off of the 'Foo Games' website.
 
 https://sites.google.com/view/foogames
 
-[back](./)

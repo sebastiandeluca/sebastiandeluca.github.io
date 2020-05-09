@@ -1,0 +1,25 @@
+N:Billie Jean
+R:Nord
+C:Warrior
+P:4.0
+S:5.0
+I:4.0
+L:3.0
+~:Weak Wand
+*:Steel Leggings,Small Axe,Rotten Flesh,Iron Rod,Purple Potion,Rotten Flesh,Small Sword,Broken Arrows (x10),Master Chest Key
+
+This character was created using Option 1 - Character Creator.
+
+It will randomly generate a weapon and 9 other items to be in the 'Pack' of this character.
+
+LEGEND:
+ [To make the files easier to read / write for the program, every section has been Shortened to 1 letter.]
+N = Name
+R = Race
+C = Class
+P = Power
+S = Speed
+I = Intellect
+L = Lockpicking
+~ = Equipped Weapon
+* = Remaining Inventory

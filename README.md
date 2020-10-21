@@ -11,7 +11,7 @@ I began coding in Grade 10 with Visual Basic, and have since expanded my skills 
 
 # My All-Time Favourites!
 
-_Some of my favourite projects._
+_Some of my projects._
 
 I have amassed quite a lot of projects over the last 3 years, although the first years' projects are lost. Here's some of my all-time favourite ones.
 
@@ -28,7 +28,7 @@ Prism is downloadable off of my [GitHub](https://github.com/sebastiandeluca/Pris
 
 _My Contribution:_
 
-For Prism, I handled the created of the art of the game. I also, generally, conjured up most of the ideas for features and helmed the story development. I also volunteered to lead the development of the 'Main Hub', as well as 2 of the 4 inner-games.
+For Prism, I handled the creation of the art of the game. I also, generally, conjured up most of the ideas for features and helmed the story development. I also volunteered to lead the development of the 'Main Hub' (known as the arcade), as well as 2 of the 4 inner-games.
 
 ## ASCII-Based UNO
 A Grade 11 Culminating Assessment

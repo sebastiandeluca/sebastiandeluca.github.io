@@ -9,13 +9,13 @@ I began coding in Grade 10 with Visual Basic, and have since expanded my skills 
 ---
 
 
-## My All-Time Favourites!
+# My All-Time Favourites!
 
 _Some of my favourite projects._
 
 I have amassed quite a lot of projects over the last 3 years, although the first years' projects are lost. Here's some of my all-time favourite ones.
 
-# Prism
+## Prism
 The crowned-jewel of my coding career thus far. Prism is the amalgamation of everything I've learned, and was a true passion project for my friends and I to create.
 
 Prism features unqiue features like weather, save-games, a 2.5D Perspective view, an easy-to-use GUI, and more.
@@ -28,13 +28,13 @@ Prism is downloadable off of my [GitHub](https://github.com/sebastiandeluca/Pris
 _My Contribution:_
 For Prism, I handled the created of the art of the game. I also, generally, conjured up most of the ideas for features and helmed the story development. I also volunteered to lead the development of the 'Main Hub', as well as 2 of the 4 inner-games.
 
-# ASCII-Based UNO
+## ASCII-Based UNO
 A Grade 11 Culminating Assessment
 
 _My Contribution:_
 For ASCII-UNO, I solely developed the player-side of things, such as UI, gameplay, and the menus.
 
-# Python Day Planner
+## Python Day Planner
 A Python-based Day Planner for Grade 12's Culminating Assessment
 
 _Features:_
@@ -43,7 +43,7 @@ Python Day Planner utilizes many of Python's capabilities, such as:
  - Recursion
  - Exception Handling
  
- # Escape From The Dungeon
+ ## Escape From The Dungeon
  A recursion-based Dungeon Crawler I created because I was bored, so I went above and beyond on an assignment.
  
  _Features:_

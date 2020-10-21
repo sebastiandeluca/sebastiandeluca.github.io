@@ -48,7 +48,7 @@ Python Day Planner utilizes many of Python's capabilities, such as:
  - Exception Handling
  
  
- ## Escape From The Dungeon
+ # Escape From The Dungeon
  A recursion-based Dungeon Crawler I created because I was bored, so I went above and beyond on an assignment.
  
  _Features:_

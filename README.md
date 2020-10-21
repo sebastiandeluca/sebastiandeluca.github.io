@@ -3,15 +3,15 @@
  
  ### NOTE: THIS SITE IS A WORK-IN-PROGRESS!
 
-# History Lesson Time!
-I first began coding in the 10th Grade, with Visual Basic as my first language. Before this point, I had known that I wanted to get into the Computer Science / Software Development field-- but I didn't know what that meant. In my 10th Grade "Intro to Computer Sciences" class, I discovered that I truly excelled at coding. I was able to solve problems with ease and efficiency. This made me want to take the following year's course as well-- Computer Science. What an upgrade. This is where I first learned about PYTHON, and began to learn how to code it. This is where I really hit my stride. I loved it so much, I went ahead of the entire class, and was far, far ahead for the entirety of the course. This year, I continued my education, Python-wise, learning about Object-Orientated Programming. After creating the project I'm most proud of, Prism, with my friends, I decided to start to learn Java. I have currently made my way through most of Java's basics, and am hoping to learn other languages such as Javascript, C++, and more as time goes on.
+# A little more about me:
+I began coding in Grade 10 with Visual Basic, and have since expanded my skills to become proficient in Python and become familiar with Java and C++ in my 3+ years of experience. I excel in creating small-medium programs, or games. I love to learn, grow, and code, and I love seeing code in action!
 
 ---
 
 
 ## My All-Time Favourites!
 
-_Now, this is where the money is._
+_Some of my favourite projects._
 
 I have amassed quite a lot of projects over the last 3 years, although the first years' projects are lost. Here's some of my all-time favourite ones.
 
@@ -20,9 +20,37 @@ The crowned-jewel of my coding career thus far. Prism is the amalgamation of eve
 
 Prism features unqiue features like weather, save-games, a 2.5D Perspective view, an easy-to-use GUI, and more.
 
+_SYNOPSIS_
 Lost in an arcade at night, 7 Year Old Dylan Park finds refuge in playing the few arcade machines left running overnight. To his surprise, these games seem to light up the arcade, and could maybe even light up his path of escape. In Prism, play as Dylan in his quest to get home and return to Mom before the night comes to an end.
 
 Prism is downloadable off of my [GitHub](https://github.com/sebastiandeluca/Prism), or off of the [Foo Games Website](https://www.sites.google.com/view/foogames)
 
+_My Contribution:_
+For Prism, I handled the created of the art of the game. I also, generally, conjured up most of the ideas for features and helmed the story development. I also volunteered to lead the development of the 'Main Hub', as well as 2 of the 4 inner-games.
 
+# ASCII-Based UNO
+A Grade 11 Culminating Assessment
+
+_My Contribution:_
+For ASCII-UNO, I solely developed the player-side of things, such as UI, gameplay, and the menus.
+
+# Python Day Planner
+A Python-based Day Planner for Grade 12's Culminating Assessment
+
+_Features:_
+Python Day Planner utilizes many of Python's capabilities, such as:
+ - File I/O
+ - Recursion
+ - Exception Handling
+ 
+ # Escape From The Dungeon
+ A recursion-based Dungeon Crawler I created because I was bored, so I went above and beyond on an assignment.
+ 
+ _Features:_
+ - Recursion
+ - Character Creation
+ - File I/O
+ - Exception Handling
+ 
+To learn more about any of my projects, visit my github!
 

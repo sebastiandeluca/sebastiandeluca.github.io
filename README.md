@@ -1,5 +1,5 @@
 # Who Am I?
- Sebastian Deluca is a software developer proficient in Python, and soon, Java.
+ Sebastian Deluca is a software developer proficient in Python, and soon, JavaScript and C++. However, those will come later in time.
  
  ### NOTE: THIS SITE IS A WORK-IN-PROGRESS!
 

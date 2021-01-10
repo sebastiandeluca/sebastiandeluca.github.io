@@ -4,7 +4,7 @@
  ### NOTE: THIS SITE IS A WORK-IN-PROGRESS!
 
 # A little more about me:
-I began coding in Grade 10 with Visual Basic, and have since expanded my skills to become proficient in Python and become familiar with Java and C++ in my 3+ years of experience. I excel in creating small-medium programs, or games. I love to learn, grow, and code, and I love seeing code in action!
+I began coding in Grade 10 with Visual Basic-- but after Grade 10, my focus shifted to Python, which I became proficient in. I recently learned JavaScript, and plan on learning C++ and Java in the future. I excel in creating small-medium programs and/or games. I love to learn, grow, and code-- I love seeing code in action!
 
 ---
 

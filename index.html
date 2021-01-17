@@ -6,70 +6,136 @@
         <link rel="icon" href="https://avatars2.githubusercontent.com/u/42455619?s=460&u=1ad3f33d96465dc0aaeaae0649819ba5745fb442&v=4"/>
         <style>
             ul {
-              list-style-type: none;
-              margin: 0;
-              padding: 0;
-              overflow: hidden;
-              background-color: #333;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
             }
-            
+
             li {
-              float: left;
+            float: left;
+            border-right: 1px solid rgb(180, 3, 3)
+            }
+            li:last-child {
+                border-right: none;
+            }
+
+            li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+
+            /* Change the link color to #111 (black) on hover */
+            li a:hover {
+            background-color: #111;
             }
             
-            li a, .dropbtn {
-              display: inline-block;
-              color: white;
-              text-align: center;
-              padding: 14px 16px;
-              text-decoration: none;
-            }
-            
-            li a:hover, .dropdown:hover .dropbtn {
-              background-color: red;
-            }
-            
-            li.dropdown {
-              display: inline-block;
-            }
-            
-            .dropdown-content {
-              display: none;
-              position: absolute;
-              background-color: #f9f9f9;
-              min-width: 160px;
-              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-              z-index: 1;
-            }
-            
-            .dropdown-content a {
-              color: black;
-              padding: 12px 16px;
-              text-decoration: none;
-              display: block;
-              text-align: left;
-            }
-            
-            .dropdown-content a:hover {background-color: #f1f1f1;}
-            
-            .dropdown:hover .dropdown-content {
-              display: block;
-            }
             p {
                 padding-left: 400px;
                 padding-right: 400px;
+                
             }
-            @media only screen and (max-width: 2160px) {
+            .dark-mode {
+                background-color: #333;
+                color: rgb(146, 146, 146);
+            }
+            button {
+                padding: 0;
+                border: none;
+                background: none;
+            }
+            button:hover {background-color:  #f1f1f1;}
+            #viewProjs {
+                width: 100%;
+                padding: 50px 0;
+                text-align: center;
+                background-color: rgb(255, 255, 255);
+                margin-top: 20px;
+                display: none;
+
+            }
+            #buttons {
+                width: 100%;
+                height: 75px;
+                animation-name: fade_in;
+                animation-duration: 2s;
+
+            }
+            @keyframes fade_in {
+                from { opacity : 0;}
+                to { opacity : 1;}
+
+            }
+            #viewPrism {
+                width: 100%;
+                padding: 50px 0;
+                text-align: center;
+                background-color: rgb(255, 255, 255);
+                margin-top: 20px;
+                display: none;
+            }
+            #viewSprCalc {
+                width: 100%;
+                padding: 50px 0;
+                text-align: center;
+                background-color: rgb(255, 255, 255);
+                margin-top: 20px;
+                display: none;
+            }
+            #viewUno {
+                width: 100%;
+                padding: 50px 0;
+                text-align: center;
+                background-color: rgb(255, 255, 255);
+                margin-top: 20px;
+                display: none;
+            }
+            #viewPDP {
+                width: 100%;
+                padding: 50px 0;
+                text-align: center;
+                background-color: rgb(255, 255, 255);
+                margin-top: 20px;
+                display: none;
+            }
+            #viewSelfInfo {
+                width: 100%;
+                padding: 50px 0;
+                text-align: center;
+                background-color: rgb(255, 255, 255);
+                margin-top: 20px;
+                display: none;
+            }
+            #viewContactInfo {
+                width: 100%;
+                padding: 50px 0;
+                text-align: center;
+                background-color: rgb(255, 255, 255);
+                margin-top: 20px;
+                display: none;
+            }
+
+            @media only screen and (max-width: 1080px) {
                 p {
                     padding-left: 225px;
                     padding-right: 225px;
                 }
             }
 
-            @media only screen and (max-width: 1080px) {
+            @media only screen and (max-width: 812px) {
                 p {
                     padding-left: 0;
                     padding-right: 0;
+                    font-size: large;
+                }
+                body {
+                    padding-left: 0;
+                    padding-right: 0;
+                    font-size: large;
                 }
             }
 
@@ -77,22 +143,22 @@
     </head>
     </div>
     <body style="font-family: Arial, Helvetica, sans-serif">
-        
+        <style>
+            li.button {
+                display: block;
+                color: rgb(167, 167, 167);
+                font-size: 13pt;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+        </style>
         
         <ul>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">Quick-View</a>
-                <div class="dropdown-content">
-                    <a href="#projects">My All-Time Favourites!</a>
-                    <a href="#biography">More About Me</a>
-                    <a href="#future">Future Ambitions</a>
-                </div>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">My Other Pages</a>
-                <div class="dropdown-content">
-                    <a href="https://github.com/sebastiandeluca" target="_blank">GitHub</a>
-                    <a href="https://www.linkedin.com/in/sebastian-deluca-4023221ba/" target="_blank">LinkedIn</a>
-                </div>
+            <li><a href="https://github.com/sebastiandeluca" target="_blank">My Github</a>
+            <li><a href="https://www.linkedin.com/in/sebastian-deluca-4023221ba/" target="_blank">My LinkedIn</a>
+            <li><a href="https://sites.google.com/view/foogames/" target="_blank">Foo Games Site</a>
+            <li><button onclick="darkMode()"><img src="img/darkmode_img.png"></button>
         </ul>
     </body>
     <div class="HeaderImages">
@@ -105,59 +171,67 @@
         <img src="img/whoAmI_header_img.png"><br>
         
         
-        <p class="clean">I'm an 18 year-old Canadian software developer-- I'm currently proficient in Python, JavaScript, and Java--  and plan to learn C++ in the near future. I also tend to dabble in other mediums such as graphic design and  film production. I currently study Computing at Queens University.</p>
+        <p class="clean">I'm an 18 year-old Canadian software developer-- I'm currently proficient in Python, JavaScript, and Java--  and plan to learn C++ in the near future. I also coded this website, so I have experience coding HTML and CSS. I also tend to dabble in other mediums such as graphic design and  film production. I currently study Computing at Queens University.</p>
         <br><img src="img/whoAmI_pics_img.png"><br><br>
         </center>
     </div>
     <div class="project_info">
         <link href="style.css" rel="stylesheet" type="text/css" />
         <center>
-        <img src="img/alltimefavs_img.png"><br>
+        <button onclick="viewProjects()"><img src="img/alltimefavs_img.png"></button><button onclick="viewSelf()"><img src="img/moreAbtMe_img.png"></button>
+        <div id="viewProjs">
+        
         <a id="projects"><i>Over the years, I've created many projects-- although I typically work alone, there is the occasional group effort to create a project.  Here's a list of some of my favourites.</i></a>
-            <div class="Prism">
+            <p class="clean"><b>Click on a project name to view more info!</b></p>    
+            <br>
+            <div id="buttons">
+            <button onclick="prisInfo()"><img src="img/prism_for_site.png"></button>
+            <button onclick="calcInfo()"><img src="img/supercalc_for_site.png"></button>
+            <button onclick="unoInfo()"><img src="img/uno_for_site.png"></button>
+            <button onclick="pdpInfo()"><img src="img/pdp_for_site.png"></button>
+            </div>
+            <div id="viewPrism" class="Prism">
                 <h2>Prism</h2>
-                <p class="clean">The crowned-jewel of my coding career thus far-- Prism is the amalgamation of everything I learned about the Python language,  and was a real passion project for my friends and I to create.Prism has some spectacular features such as weather simulation,  save-games, a 2.5D perspective, all-original artwork that I hand-created, an easy-to-use GUI, and more.</p>
+                <p>The crowned-jewel of my coding career thus far-- Prism is the amalgamation of everything I learned about the Python language,  and was a real passion project for my friends and I to create.Prism has some spectacular features such as weather simulation,  save-games, a 2.5D perspective, all-original artwork that I hand-created, an easy-to-use GUI, and more.</p>
                 <br>
                 <h3><i>Synopsis</i></h3><p>Lost in an arcade at night, 7 Year Old Dylan Park finds refuge in playing the few arcade machines left running overnight.  To his surprise, these games seem to light up the arcade, and could maybe even light up his path of escape. In Prism, play as  Dylan in his quest to get home and return to Mom before the night comes to an end.</p>
                 <br>
-                <p class="clean"><i>Prism is downloadable off of my GitHub, as well as the <a href="sites.google.com/foogames" target="_blank">Foo Games</a> site.</i></p><br>
+                <p><i>Prism is downloadable off of my GitHub, as well as the <a href="sites.google.com/foogames" target="_blank">Foo Games</a> site.</i></p><br>
                 <img src="img/prism_img.png"><img src="img/foo_img.png"><br>
                 <h4>My Contribution to Prism:</h4>
-                <p class="clean"><i>For Prism, I handled the creation of the games' art,  Conjured up a majority of the ideas for features, as well as helmed the story development. I volunteered  to lead the development of the 'Main Hub' as well as  2 of the 4 inner games.</i></p>
+                <p><i>For Prism, I handled the creation of the games' art,  Conjured up a majority of the ideas for features, as well as helmed the story development. I volunteered  to lead the development of the 'Main Hub' as well as  2 of the 4 inner games.</i></p>
             </div>
-            <br>
-            <hr>
-            <div class="supercalc">
+            
+            <div class="supercalc" id="viewSprCalc">
                 <h2>The SuperCalculator</h2>
                 <p  class="clean">This egotistically-named python-based calculator is/was a personal project I created with the idea of a 'calculator that can solve advanced  arithmetic'. I haven't recently been working on it due to school, but I am very proud of it.<br></p>
                 <img src="img/SuperCalc_UI.png"><br>
             </div>
-            <br>
-            <hr>
-            <div class="UNO">
+            
+            <div class="UNO" id="viewUno">
                 <h2>ASCII-Based UNO</h2>
                 <p class="clean">A Culminating Assessment for Grade 11-- an python-based UNO card game featuring an ASCII UI. This was my first big project in Python, and was a  collaborative effort with a friend of mine, Alden DeMello.<br></p>
                 <img src="img/UNO_main_img.png"><img src="img/UNO_ui_img.png"><br>
                 <h4>My Contribution to ASCII-Based UNO:</h4>
                 <p class="clean">For ASCII-Based UNO, I solely developed the player-side of things, such as UI, gameplay, and the menus.<br></p>
             </div>
-            <br>
-            <hr>
-            <div class="PyDayPlanner">
+
+            <div class="PyDayPlanner" id="viewPDP"> 
                 <h2>Python Day Planner</h2>
                 <p class="clean"></p>A Python-based Day Planner created as the Culminating Assessment for Grade 12.<br></p>
                 <i>Features:</i><br>
                 <p class="clean">Python Day Planner utilized many of Python's capabilities, such as File I/O, Recursion, and Exception Handling.<br></p>
                 <img src="img/PDP_UI.png">
             </div>
-            <br>
-            <hr>
+        </div>
         </center>
+        
     </div>
-    <div class="self_info">
+    <button style="display: none;" id="dark" onclick="darkMode()"></button>
+    <div class="self_info" id="viewSelfInfo">
+        
         <link href="style.css" rel="stylesheet" type="text/css" />
-        <center>
-        <img src="img/moreAbtMe_img.png"><br>
+        <center><br>
         <a id="biography"><i>A little personal history...</i></a><br>
         <p class="clean">I began coding in the tenth grade using the Visual Basic language. I had never had a direct interest in coding before this point, but did wonder how games did what they did from time to time. Then, my focus shifted to Python in the 11th Grade and I quickly became proficient in the language. Now being a first-year University student, I have self-taught myself JavaScript, am learning Java in school, and also teaching myself what's necessary for HTML and CSS to create this site. <br><br>I am of Italian descent, enjoy playing video-games, watching movies, spending time with friends and family, learning, growing, and pushing the capabilities of what code can do.</p>
         <img src="img/moreinfo_img.png">
@@ -178,9 +252,143 @@
             <h6>"Fear, uncertainty and discomfort are your compasses toward growth." -Someone, probably.</h6>
             <h6>Also,<br>"'You miss 100% of the shots you don't take.'-Wayne Gretzky" - Michael Scott.</h6>
         </p>
-        <a href="#top">Back to Top</a>
+        <button onclick="viewContact()"><img src="img/contact_img.png"></button>
         </center>
     </div>
+    <div class="contact_info" id="viewContactInfo">
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <center>
+        <a id="contacts"><i>How to get in touch.</i></a><br>
+        <p class="clean">
+        <b>Email:</b> sebdeluca.contact@gmail.com<br><b>GitHub:</b><a href="https://github.com/sebastiandeluca" target="_blank">/sebastiandeluca</a><br><b>LinkedIn:</b><a href="https://www.linkedin.com/in/sebastian-deluca-4023221ba/" target="_blank">Sebastian Deluca</a><br>
+        </p>
+        
+        </center>
+    </div>
+    <center><a href="#top">Back to Top</a></center>
+    <script>
+        buttonList = ["viewPrism", "viewSprCalc", "viewUno", "viewPDP"];
+        sectionsList = ["viewProjs","viewSelfInfo"];
+        function viewProjects() {
+            var x = document.getElementById("viewProjs");
+            if (x.style.display === "none" || x.style.display === "") {
+            sectionsList.forEach(element =>{
+                console.log(element)
+                var c = document.getElementById(element);
+                if (c.style.display === "block") {
+                    c.style.display = "none";
+                }
+            })
+            }
+            if (x.style.display === "none" || x.style.display === "") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+
+        function viewSelf() {
+            var x = document.getElementById("viewSelfInfo");
+            if (x.style.display === "none" || x.style.display === "") {
+            sectionsList.forEach(element =>{
+                console.log(element)
+                var c = document.getElementById(element);
+                if (c.style.display === "block") {
+                    c.style.display = "none";
+                }
+            })
+            }
+            if (x.style.display === "none" || x.style.display === "") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+
+        };
+
+        function viewContact() {
+            var x = document.getElementById("viewContactInfo");
+            if (x.style.display === "none" || x.style.display === "") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+
+        function prisInfo() {
+            var x = document.getElementById("viewPrism");
+            if (x.style.display === "none" || x.style.display === "") {
+            buttonList.forEach(element =>{
+                console.log(element)
+                var c = document.getElementById(element);
+                if (c.style.display === "block") {
+                    c.style.display = "none";
+                }
+            })
+            }
+            
+            if (x.style.display === "none" || x.style.display === "") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+        function calcInfo() {
+            var x = document.getElementById("viewSprCalc");
+            if (x.style.display === "none" || x.style.display === "") {
+            buttonList.forEach(element =>{
+                console.log(element)
+                var c = document.getElementById(element);
+                if (c.style.display === "block") {
+                    c.style.display = "none";
+                }
+            })
+            }
+            if (x.style.display === "none" || x.style.display === "") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+        function unoInfo() {
+            var x = document.getElementById("viewUno");
+            if (x.style.display === "none" || x.style.display === "") {
+            buttonList.forEach(element =>{
+                console.log(element)
+                var c = document.getElementById(element);
+                if (c.style.display === "block") {
+                    c.style.display = "none";
+                }
+            })
+            }
+            if (x.style.display === "none" || x.style.display === "") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+        function pdpInfo() {
+            var x = document.getElementById("viewPDP");
+            if (x.style.display === "none" || x.style.display === "") {
+            buttonList.forEach(element =>{
+                console.log(element)
+                var c = document.getElementById(element);
+                if (c.style.display === "block") {
+                    c.style.display = "none";
+                }
+            })
+            }
+            if (x.style.display === "none" || x.style.display === "") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+        function darkMode() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
     </body>
     
         

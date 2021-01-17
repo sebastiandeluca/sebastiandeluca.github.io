@@ -1,4 +1,8 @@
 <style>
+body {
+  background-color: #333333;
+}
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -23,7 +27,7 @@ ul {
     padding: 0;
     overflow: hidden;
     border: 1px solid #ececec;
-    background-color: #ff0000;
+    background-color: #333333;
   }
   
   li {
@@ -32,14 +36,15 @@ ul {
   
   li a {
     display: block;
-    color: #666;
+    color: rgb(167, 167, 167);
+    font-size: 13pt;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
   
   li a:hover:not(.active) {
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(94, 94, 94);
   }
   
   li a.active {
@@ -47,7 +52,3 @@ ul {
     background-color: #8d0000;
   }
 </style>
-p {
-    padding-left: 225px;
-    padding-right: 225px;
-}

@@ -37,6 +37,14 @@ h3 {
     font-size: 36px;
 }
 
+#nav-container {
+    position: sticky;
+    background-color: var(--main);
+    background-blend-mode: overlay;
+    top: 0;
+    z-index: 999;
+}
+
 #toggle-btn {
     transition: all 500ms ease-in-out;
     width: 75px;

@@ -57,6 +57,8 @@ function toggledm() {
         document.querySelector('#toggle-btn').src = 'img/moon.svg';
         document.querySelector('#toggle-btn').style.background = 'linear-gradient(145deg, #ffffff, #e1e1e1)';
         document.querySelector('#toggle-btn').style.boxShadow = '6px 6px 12px #d5d5d5,-6px -6px 12px #ffffff';
+        document.querySelector("#nav-container").style.animation = 'switchToWhite 500ms';
+        document.querySelector("#nav-container").style.backgroundColor = '#FAFAFA'
         document.body.style.animation = 'switchToWhite 500ms';
         document.body.style.backgroundColor = '#FAFAFA';
         title.style.color = 'black';
@@ -91,6 +93,8 @@ function toggledm() {
         document.body.style.backgroundColor = 'var(--main)';
         document.querySelector('#toggle-btn').style.boxShadow = '6px 6px 12px #1e232b,-6px -6px 12px #262d37';
         document.querySelector('#toggle-btn').style.background =' linear-gradient(145deg, #242b34, #1f242c)';
+        document.querySelector("#nav-container").style.animation = 'switchToDark 500ms';
+        document.querySelector("#nav-container").style.backgroundColor = 'var(--main)'
         title.style.color = 'white';
         document.querySelector('#nav-a').style.color = 'white';
         document.querySelectorAll(".nav").forEach(nav => {

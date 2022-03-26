@@ -243,7 +243,7 @@ h3 {
   top: 48%;
   width: auto;
   margin-top: -23px;
-  padding: 17px;
+  padding: 45px;
   color: grey;
   font-weight: bold;
   font-size: 19px;
@@ -267,10 +267,10 @@ h3 {
 .Info {
   color: #ffffff;
   font-family: "Metropolis-Bold";
-  font-size: 16px;
+  font-size: 48px;
   padding: 10px 14px;
   position: absolute;
-  bottom: 10px;
+  bottom: -540px;
   width: 100%;
   text-align: center;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;

@@ -3,29 +3,58 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelector("#about").addEventListener('click', () => {load_about()});
     document.querySelector('#toggle-btn').addEventListener('click', () => {toggledm()})
     if (window.screen.availWidth > 850) {
-    document.querySelectorAll(".img").forEach(img => {
-        img.addEventListener("click", () => {
-            scrollPosX = window.scrollX;
-            scrollPosY = window.scrollY;
-            window.scroll(0,1380);
-            document.querySelector("#view-img").innerHTML = `<img src=${img.src}>`;
-            document.querySelector("#view-img").animate([
-                {opacity:0},
-                {opacity:1}
-            ], {
-                duration: 500
-            });
-            document.querySelector("#main-content").style.filter = 'blur(10px)';
-            document.querySelector("#view-img").addEventListener('click',() => {
-                document.querySelector("#view-img").innerHTML = ``;
-                document.querySelector("#main-content").style.filter = '';
-                window.scroll(scrollPosX, scrollPosY);
-            })
-        })
-    })
 }
     window.scrollTo(0,0)
 });
+
+var slideshows = [];
+
+var slidePosition = 1;
+SlideShow(1,slidePosition);
+SlideShow(2,slidePosition);
+SlideShow(3,slidePosition);
+
+// forward/Back controls
+function plusSlides(slide,n) {
+  SlideShow(slide,slidePosition += n);
+}
+
+//  images controls
+function currentSlide(slide,n) {
+  SlideShow(slide,slidePosition = n);
+}
+
+function SlideShow(slide,n) {
+  var i;
+  if (slide == 1)
+  {
+    var slides = document.getElementsByClassName("Containers");
+    var circles = document.getElementsByClassName("dots");
+  }
+  if (slide == 2)
+  {
+    var slides = document.getElementsByClassName("Containers-1");
+    var circles = document.getElementsByClassName("dots-1");
+  }
+
+  if (slide == 3)
+  {
+    var slides = document.getElementsByClassName("Containers-2");
+    var circles = document.getElementsByClassName("dots-2");
+  }
+  
+  if (n > slides.length) {slidePosition = 1}
+  if (n < 1) {slidePosition = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < circles.length; i++) {
+      circles[i].className = circles[i].className.replace(" enable", "");
+  }
+  slides[slidePosition-1].style.display = "block";
+  circles[slidePosition-1].className += " enable";
+} 
+
 
 function load_projects() {
     window.scrollTo(0,0)

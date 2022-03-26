@@ -5,7 +5,7 @@
         <link href="styles.css" rel="stylesheet">
         <link rel='icon' href='img/SD.svg'>
         <link href="mobile-styles.css" rel="stylesheet" media="screen and (max-device-width:480px)">
-        <script src="deluca.js"></script>
+        
     </head>
     
     <body>
@@ -31,30 +31,135 @@
                     <div class='flexbox'>
                         <h2 id="header-label">Some of My Projects</h2>
                     </div>
+                
                     
-                    <h3 id="project-label">Appetment</h3>
-                    <div id="appetment-img-container" class="flexbox">
-                        <img src="img/appetment_img1.png" class="img" id="apptmnt-img-1">
-                        <img src="img/appetment_img2.png" class="img" id="apptmnt-img-2">
-                        <img src="img/appetment_img3.png" class="img" id="apptmnt-img-3">
-                    </div>
-                    <p id="proj-desc">Appetment was a project I created as a submission for a final project for Harvard's CS50w course. The premise is that it is a service that allows you create profiles for your pets, and then create appointments for them, after which said appointment, along with your pet's info, will be forwarded to all nearby approved vet clinics. It utilizes JavaScript, Python, and Django.</p>
-                    <h3 id="project-label">Prism</h3>
-                    <div class="flexbox">
-                    <img src="img/prism_img1.png" class="img" id="prism-img-1">
-                    <img src="img/prism_img2.png" class="img" id="prism-img-2">
-                    <img src="img/prism_img3.png" class="img" id="prism-img-3">
-                </div>
+                        <div class="slideshow-container fade">
+
+                            <!-- Full images with numbers and message Info -->
+                            <div class="Containers">
+                              <img src="img/appetment_img1.png" class="img"  style="width:100%;border:none;border-radius: 5%;">
+                              <div class="Info">OWNER SIDE: A Pet Profile</div>
+                            </div>
+                          
+                            <div class="Containers">
+                              <img src="img/appetment_img2.png" class="img"  style="width:100%;border:none;border-radius: 5%;">
+                              <div class="Info">OWNER SIDE: List of Pet Profiles</div>
+                            </div>
+                          
+                            <div class="Containers">
+                              <img src="img/appetment_img3.png" class="img"  style="width:100%;border:none;border-radius: 5%;">
+                              <div class="Info">OWNER SIDE: Appointment Maker</div>
+                            </div>
+    
+                            <div class="Containers">
+                                <img src="img/appetment_img4.png" class="img"  style="width:100%;border:none;border-radius: 5%;">
+                                <div class="Info">CLINIC SIDE: List of Pets in Need</div>
+                              </div>
+                            
+                              <div class="Containers">
+                                <img src="img/appetment_img5.png" class="img"  style="width:100%;border:none;border-radius: 5%;">
+                                <div class="Info">CLINIC SIDE: Appointments In Progress</div>
+                              </div>
+                            
+                              <div class="Containers">
+                                <img src="img/appetment_img6.png" class="img"  style="width:100%;border:none;border-radius: 5%;">
+                                <div class="Info">CLINIC SIDE: Pet Profile (1/2)</div>
+                              </div>
+    
+                              <div class="Containers">
+                                <img src="img/appetment_img7.png" class="img"  style="width:100%;border:none;border-radius: 5%;">
+                                <div class="Info">CLINIC SIDE: Pet Profile (2/2)</div>
+                              </div>
+                          
+                            <!-- Back and forward buttons -->
+                            <a class="Back" onclick="plusSlides(1,-1)">&#10094;</a>
+                            <a class="forward" onclick="plusSlides(1,1)">&#10095;</a>
+                        </div>
+                          <br>
+                          
+                          <!-- The circles/dots -->
+                          <div style="text-align:center">
+                            <span class="dots" onclick="currentSlide(1,1)"></span>
+                            <span class="dots" onclick="currentSlide(1,2)"></span>
+                            <span class="dots" onclick="currentSlide(1,3)"></span>
+                            <span class="dots" onclick="currentSlide(1,4)"></span>
+                            <span class="dots" onclick="currentSlide(1,5)"></span>
+                            <span class="dots" onclick="currentSlide(1,6)"></span>
+                            <span class="dots" onclick="currentSlide(1,7)"></span>
+                          </div> 
+                          <h3 id="project-label">Appetment</h3>
+                    <p id="proj-desc">Appetment was a project I created as a submission for a final project for Harvard's CS50w course. The premise is that it is a service that allows you create profiles for your pets, and then create appointments for them, after which said appointment, along with your pet's info, will be forwarded to all nearby approved vet clinics. It utilizes JavaScript, Python, Django, and SQL. It is a project that I am passionate about and intend to finish, and am almost at that stage.</p>
+                   
+                    <div id="flexbox">
+                        <div class="slideshow-container fade">
+
+                            <!-- Full images with numbers and message Info -->
+                            <div class="Containers-1">
+                              <img src="img/prism_img1.png" class="img"  style="width:100%;border:none;border-radius: 5%;">
+                              <div class="Info">Part of 'The Arcade'</div>
+                            </div>
+                          
+                            <div class="Containers-1">
+                              <img src="img/prism_img2.png" class="img"  style="width:100%;border:none;border-radius: 5%;">
+                              <div class="Info" >Another game within Prism</div>
+                            </div>
+                          
+                            <div class="Containers-1">
+                              <img src="img/prism_img3.png"class="img"  style="width:100%;border:none;border-radius: 5%;">
+                              <div class="Info">The Main Menu</div>
+                            </div>
+                          
+                            <!-- Back and forward buttons -->
+                            <a class="Back" onclick="plusSlides(2,-1)">&#10094;</a>
+                            <a class="forward" onclick="plusSlides(2,1)">&#10095;</a>
+                        </div>
+                          <br>
+                          
+                          <!-- The circles/dots -->
+                          <div style="text-align:center">
+                            <span class="dots-1" onclick="currentSlide(2,1)"></span>
+                            <span class="dots-1" onclick="currentSlide(2,2)"></span>
+                            <span class="dots-1" onclick="currentSlide(2,3)"></span>
+                          </div> 
+                          <h3 id="project-label">Prism</h3>
                     <p id="proj-desc">Prism was a video game created in Python for the Grade 12 software development unit of my Intro to Computer Science class. My contributions to the project are the code for 3 of the 4 games, the code for the lobby, and creation of all of the artwork, as well as the concept and story of the game.</p>
-                    <h3 id="project-label">Commerce</h3>
-                <div class="flexbox">
-                    <img src="img/commerce_img1.png" class="img" id="commerce-img-1">
-                    <img src="img/commerce_img2.png" class="img" id="commerce-img-2">
-                    <img src="img/commerce_img3.png" class="img" id="commerce-img-3">
+                    
+                    <div class="slideshow-container fade">
+
+                        <!-- Full images with numbers and message Info -->
+                        <div class="Containers-2">
+                          <img src="img/commerce_img1.png" class="img" style="width:100%;border:none;border-radius: 5%;">
+                          <div class="Info">Active Listings for All Categories</div>
+                        </div>
+                      
+                        <div class="Containers-2">
+                          <img src="img/commerce_img2.png"  class="img" style="width:100%;border:none;border-radius: 5%;">
+                          <div class="Info">A Listing Page</div>
+                        </div>
+                      
+                        <div class="Containers-2">
+                          <img src="img/commerce_img3.png" class="img" style="width:100%;border:none;border-radius: 5%;">
+                          <div class="Info">A Collection of Listing Categories</div>
+                        </div>
+                      
+                        <!-- Back and forward buttons -->
+                        <a class="Back" onclick="plusSlides(3,-1)">&#10094;</a>
+                        <a class="forward" onclick="plusSlides(3,1)">&#10095;</a>
+                      </div>
+                      <br>
+                      
+                      <!-- The circles/dots -->
+                      <div style="text-align:center">
+                        <span class="dots-2" onclick="currentSlide(3,1)"></span>
+                        <span class="dots-2" onclick="currentSlide(3,2)"></span>
+                        <span class="dots-2" onclick="currentSlide(3,3)"></span>
+                      </div> 
+                      <h3 id="project-label">Commerce</h3>
                 </div>
-                    <p id="proj-desc">Commerce was yet another CS50w course assignment. It is an e-commerce site where you can participate in an auction for various differents types of items, a live comment section, and also has admin functionality, among other things. It utilizes JavaScript, Python, and Django.</p>
+                    <p id="proj-desc">Commerce was yet another CS50w course assignment. It is an e-commerce site where you can participate in an auction for various differents types of items, a live comment section, and also has admin functionality, among other things. It utilizes JavaScript, Python, SQL, and Django.</p>
                     <h3 id="header-label">More Projects can be found on my Github.</h3>
                 </div>
+            </div>
             </div>
             <div id="about-container" style="display: none" class="flexbox">
                 <div id="about" class='flexbox'>
@@ -64,7 +169,7 @@
                     <h2 id="header-label">About Me</h2>
                     <p id="descy">I'm an 19 year-old aspiring full-stack engineer from Queen's University. My skill comes from both self-taught ability and things taught in school.</p>
                     <h3 id="project-label">Work Experience</h3>
-                    <p id="descy">None currently in the field, but I will be applying for internships in 2023.</p>
+                    <p id="descy"><i>Lead Web Designer</i> - <b>DCL Group of Companies</b><br>Redesigned portfolio site, implementing client requests exactly as requested with efficiency.</p>
                     <h3 id="project-label">Certifications</h3>
                     <p id="descy">
                         - Web Design in Python & JavaScript from HarvardX (Acquired 2021)
@@ -83,7 +188,7 @@
                     </p>
                     <h3 id="project-label" class="no-depth">Contact Info</h3>
                     <p id="descy">
-                        Email: sebdeluca96@gmail.com<br>
+                        Email: delucaseb02@gmail.com<br>
                         Phone: 647 - 688 - 2306
 
                     </p>
@@ -92,6 +197,9 @@
             </div>
     </div>
     </body>
+    <footer>
+        <script src="deluca.js"></script>
+    </footer>
     <div id="view-img" class="flexbox">
     </div>
 </html>

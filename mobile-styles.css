@@ -62,7 +62,7 @@ h3 {
     animation: load-top 500ms;
     color: white;
     font-family: 'Metropolis-Bold';
-    margin: 1% 15% 1%  11%;
+    margin: 1% 15% 1%  10%;
 }
 
 #nav-a {
@@ -238,6 +238,7 @@ h3 {
 
 /* forward & Back buttons */
 .Back, .forward {
+    display: none;
   cursor: pointer;
   position: absolute;
   top: 48%;

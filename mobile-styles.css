@@ -43,7 +43,8 @@ h3 {
 
 #title {
     color: white;
-    font-family: 'Metropolis-Bold';
+    font-family: 'Metropolis';
+    font-weight: bolder;
 }
 
 #header {
@@ -61,7 +62,8 @@ h3 {
 #project-label {
     animation: load-top 500ms;
     color: white;
-    font-family: 'Metropolis-Bold';
+    font-family: 'Metropolis';
+    font-weight: bolder;
     margin: 1% 15% 1%  10%;
 }
 
